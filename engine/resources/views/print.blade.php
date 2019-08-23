@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
   <head>
-    @include('Partials.head')
   <script type="text/javascript">
     window.setTimeout(function() {
       window.close();
@@ -9,12 +8,12 @@
   </script>
   </head>
 
-  <body onLoad="window.print()" style="font-size: 12px;">
+  <body onLoad="window.print()" style="font-size: 12px; font-family: Nunito,sans-serif;">
     <div class="wrapper">
-      <h3 class="text-center">BOOKING</h3>
+      <h3 align="center">BOOKING</h3>
       <img src="images/qrcode.png" style="margin: 0 auto 10px; display: block; width: 120px; height: auto;">
-      <p class="text-center mb-0">--- POSJS0708190006 ---</p>
-      <p class="text-center">07 August 2019</p>
+      <p align="center">--- POSJS0708190006 ---</p>
+      <p align="center">07 August 2019</p>
       <table  width="100%" border="0" >
         <tr>
           <td width="80">Jam Pesan</td>
