@@ -8,7 +8,7 @@
   </script>
   </head>
 
-  <body onLoad="window.print()" style="font-size: 12px; font-family: Nunito,sans-serif;">
+  <body onLoad="window.print()" style="font-size: 10px; font-family: Nunito,sans-serif;">
     <div class="wrapper">
       <h3 align="center">BOOKING</h3>
       <img src="images/qrcode.png" style="margin: 0 auto 10px; display: block; width: 120px; height: auto;">
