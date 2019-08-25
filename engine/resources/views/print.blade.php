@@ -8,15 +8,15 @@
   </script>
   </head>
 
-  <body onLoad="window.print()" style="font-size: 10px; font-family: Nunito,sans-serif;">
-    <div class="wrapper">
-      <h3 align="center">BOOKING</h3>
+  <body onLoad="window.print()" style="font-size: 9px; font-family: Nunito,sans-serif;">
+    <div class="wrapper" style="font-family: Courier New,sans-serif;">
+      <h3 align="center" style="font-size: 17px; margin-bottom: 0px;">BOOKING</h3>
       <img src="images/qrcode.png" style="margin: 0 auto 10px; display: block; width: 120px; height: auto;">
       <p align="center">--- POSJS0708190006 ---</p>
       <p align="center">07 August 2019</p>
       <table  width="100%" border="0" >
         <tr>
-          <td width="80">Jam Pesan</td>
+          <td width="50">Jam Pesan</td>
           <td  align="right">11.30</td>
         </tr>
         <tr>
@@ -34,8 +34,10 @@
         <tr>
           <td colspan="2"><hr class="custom-1"></td>
         </tr>
+      </table>
+      <table  width="100%" border="0" style="font-size: 8px;">
         <tr>
-          <td>1x</td>
+          <td width="40">1x</td>
           <td  align="right">GLASS CLEANING</td>
         </tr>
         <tr>
