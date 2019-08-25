@@ -53,6 +53,17 @@
                                         </div>
                                     </a>
                                 </div>
+                                <div class="col-3 mb-4 list-item">
+                                    <a href="{{ url('#') }}" class="shadow position-relative">
+                                        <div class="info-price">Rp. 200.000</div>
+                                        <div class="box-image">
+                                            <img src="images/service/nano-ceramic-svc.png">
+                                        </div>
+                                        <div class="info-item">
+                                            <h4 class="text-center p-1">Nano Ceramic</h4>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="carwash">

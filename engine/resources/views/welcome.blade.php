@@ -3,7 +3,7 @@
     <head>
         @include('Partials.head')
     </head>
-    <body class="home">
+    <body class="home background-blue-1">
         <div class="container">
             <div class="box p-5 shadow">
                 <div class="row">
