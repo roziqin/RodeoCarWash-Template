@@ -6,7 +6,7 @@
     <body>
         <div class="row background-blue-1 position-relative mb-5">
             <div class="col-12 p-2 position-absolute abs-custom">
-                <a href="{{ url('/') }}" class="float-left pl-3 pr-3"><img src="images/arrow-left.png" height="32"></a>
+                <a href="{{ url('merk') }}" class="float-left pl-3 pr-3"><img src="images/arrow-left.png" height="32"></a>
             </div>
             <div class="col-12 pt-2 pb-2">
                 <h1 class="text-center text-white font-weight-bold mb-0">SILAHKAN PILIH TIPE KENDARAAN ANDA</h1>
