@@ -23,7 +23,7 @@
           <td>Jam Masuk</td>
           <td  align="right">11.30</td>
         </tr>
-        <tr>
+        <tr style="display: none;">
           <td>NOPOL</td>
           <td  align="right">N 1456 AA</td>
         </tr>

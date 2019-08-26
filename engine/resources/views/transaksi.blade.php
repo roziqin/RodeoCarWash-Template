@@ -180,7 +180,7 @@
                     <div class="row m-0  col-custom-2">
                         <div class="col-12 p-3">
                             <div class="form-group text-center">
-                                <input type="text" class="form-control form-custom-1 text-center" id="platnomor" placeholder="MASUKKAN PLAT NOMOR">
+                                <input type="hidden" class="form-control form-custom-1 text-center" id="platnomor" placeholder="MASUKKAN PLAT NOMOR">
                             </div>
                             <table class="table table-custom-1 list-item">
                                 <tr>
