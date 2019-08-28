@@ -4,4 +4,7 @@
 <title>Laravel Project</title>
 
 <link rel="stylesheet" type="text/css" href="css/app.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="{{asset('engine/node_modules/mdbootstrap/css/mdb.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('engine/node_modules/mdbootstrap/css/modules/animations-extended.min.css')}}">
+<link rel="stylesheet" type="text/css" href="css/compiled-4.8.8.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css?new4">

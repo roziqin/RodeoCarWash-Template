@@ -5,7 +5,7 @@
     </head>
     <body class="transaksi">
         <div class="container-fluid">
-            <div class="row background-blue-1">
+            <div class="row blue-gradient">
                 <div class="col-8 p-2 border-right border-white">
                     <a href="{{ url('tipe') }}" class="float-left pl-3 pr-3"><img src="images/arrow-left.png" height="32"></a>
                     <h3 class="text-center mb-0 text-white">RODEO CAR WASH</h3>
@@ -18,7 +18,7 @@
                 <div class="col-8 p-3 border border-grey col-custom-1">
                     <!-- Tab panes -->
                     <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade in active show" id="terlaris" style="">  
+                        <div role="tabpanel" class="tab-pane animated slow fadeIn active show" id="terlaris" style="">  
                             <div class="row">
                                 <div class="col-3 mb-4 list-item">
                                     <a href="{{ url('#') }}" class="shadow position-relative">
@@ -27,7 +27,7 @@
                                             <img src="images/service/CARWASH-ultra-healthy.png">
                                         </div>
                                         <div class="info-item">
-                                            <h4 class="text-center p-1">Carwash Ultra Healthy</h4>
+                                            <h4 class="text-center p-1 blue-text">Carwash Ultra Healthy</h4>
                                         </div>
                                     </a>
                                 </div>
@@ -38,7 +38,7 @@
                                             <img src="images/service/CARWASH-healthy.png">
                                         </div>
                                         <div class="info-item">
-                                            <h4 class="text-center p-1">Carwash Healthy</h4>
+                                            <h4 class="text-center p-1 blue-text">Carwash Healthy</h4>
                                         </div>
                                     </a>
                                 </div>
@@ -49,7 +49,7 @@
                                             <img src="images/service/CARWASH-deluxe.png">
                                         </div>
                                         <div class="info-item">
-                                            <h4 class="text-center p-1">Carwash Deluxe</h4>
+                                            <h4 class="text-center p-1 blue-text">Carwash Deluxe</h4>
                                         </div>
                                     </a>
                                 </div>
@@ -60,13 +60,13 @@
                                             <img src="images/service/nano-ceramic-svc.png">
                                         </div>
                                         <div class="info-item">
-                                            <h4 class="text-center p-1">Nano Ceramic</h4>
+                                            <h4 class="text-center p-1 blue-text">Nano Ceramic</h4>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="carwash">
+                        <div role="tabpanel" class="tab-pane animated slow fadeIn" id="carwash">
                             <div class="row">
                                 <div class="col-3 mb-4 list-item">
                                     <a href="{{ url('#') }}" class="shadow position-relative">
@@ -75,7 +75,7 @@
                                             <img src="images/service/CARWASH-reguler.png">
                                         </div>
                                         <div class="info-item">
-                                            <h4 class="text-center p-1">Carwash Reguler</h4>
+                                            <h4 class="text-center p-1 blue-text">Carwash Reguler</h4>
                                         </div>
                                     </a>
                                 </div>
@@ -86,7 +86,7 @@
                                             <img src="images/service/CARWASH-deluxe.png">
                                         </div>
                                         <div class="info-item">
-                                            <h4 class="text-center p-1">Carwash Deluxe</h4>
+                                            <h4 class="text-center p-1 blue-text">Carwash Deluxe</h4>
                                         </div>
                                     </a>
                                 </div>
@@ -97,7 +97,7 @@
                                             <img src="images/service/CARWASH-ultra.png">
                                         </div>
                                         <div class="info-item">
-                                            <h4 class="text-center p-1">Carwash Ultra</h4>
+                                            <h4 class="text-center p-1 blue-text">Carwash Ultra</h4>
                                         </div>
                                     </a>
                                 </div>
@@ -108,7 +108,7 @@
                                             <img src="images/service/CARWASH-healthy.png">
                                         </div>
                                         <div class="info-item">
-                                            <h4 class="text-center p-1">Carwash Healthy</h4>
+                                            <h4 class="text-center p-1 blue-text">Carwash Healthy</h4>
                                         </div>
                                     </a>
                                 </div>
@@ -119,7 +119,7 @@
                                             <img src="images/service/CARWASH-deluxe-healthy.png">
                                         </div>
                                         <div class="info-item">
-                                            <h4 class="text-center p-1">Carwash Deluxe Healthy</h4>
+                                            <h4 class="text-center p-1 blue-text">Carwash Deluxe Healthy</h4>
                                         </div>
                                     </a>
                                 </div>
@@ -130,13 +130,13 @@
                                             <img src="images/service/CARWASH-ultra-healthy.png">
                                         </div>
                                         <div class="info-item">
-                                            <h4 class="text-center p-1">Carwash Ultra Healthy</h4>
+                                            <h4 class="text-center p-1 blue-text">Carwash Ultra Healthy</h4>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="carcare">
+                        <div role="tabpanel" class="tab-pane animated slow fadeIn" id="carcare">
                             <div class="row">
                                 <div class="col-3 mb-4 list-item">
                                     <a href="{{ url('#') }}" class="shadow position-relative">
@@ -145,7 +145,7 @@
                                             <img src="images/service/total-detailing-svc.png">
                                         </div>
                                         <div class="info-item">
-                                            <h4 class="text-center p-1">Total Detailing</h4>
+                                            <h4 class="text-center p-1 blue-text">Total Detailing</h4>
                                         </div>
                                     </a>
                                 </div>
@@ -156,7 +156,7 @@
                                             <img src="images/service/nitro-seal-svc.png">
                                         </div>
                                         <div class="info-item">
-                                            <h4 class="text-center p-1">Nitro Seal</h4>
+                                            <h4 class="text-center p-1 blue-text">Nitro Seal</h4>
                                         </div>
                                     </a>
                                 </div>
@@ -167,7 +167,7 @@
                                             <img src="images/service/nano-ceramic-svc.png">
                                         </div>
                                         <div class="info-item">
-                                            <h4 class="text-center p-1">Nano Ceramic</h4>
+                                            <h4 class="text-center p-1 blue-text">Nano Ceramic</h4>
                                         </div>
                                     </a>
                                 </div>
@@ -182,13 +182,14 @@
                             <div class="form-group text-center">
                                 <input type="hidden" class="form-control form-custom-1 text-center" id="platnomor" placeholder="MASUKKAN PLAT NOMOR">
                             </div>
-                            <table class="table table-custom-1 list-item">
+                            <table class="table table-custom-1 list-item-jasa">
                                 <tr>
                                     <td>
                                         <span class="quantity">1</span>
                                     </td>
                                     <td>Carwash Healty</td>
                                     <td><span class="price">Rp. 70.000</span></td>
+                                    <td><a href="#" class="delete btn-danger"><i class="fas fa-trash text-white"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -196,6 +197,7 @@
                                     </td>
                                     <td>Nano Ceramic</td>
                                     <td><span class="price">Rp. 200.000</span></td>
+                                    <td><a href="#" class="delete btn-danger"><i class="fas fa-trash text-white"></i></a></td>
                                 </tr>
                             </table>
                         </div>
@@ -213,22 +215,22 @@
                 </div>
             </div>
             <div class="row fixed-bottom ml-0 mr-0 background-white row-bottom-custom">
-                <div class="col-8 pl-0 pr-0 border border-grey">
-                    <ul class="nav nav-tabs row ml-0 mr-0" role="tablist">
+                <div class="col-8 pl-0 pr-0 border border-grey main-tabs-docs">
+                    <ul class="nav nav-mtd tabs-info z-depth-1 row ml-0 mr-0" role="tablist">
                         <li class="nav-item col-4 pl-0 pr-0">
-                            <a class="nav-link active" href="#terlaris" role="tab" data-toggle="tab"><h4 class="text-center mb-0">TERLARIS</h4></a>
+                            <a class="nav-link waves-light waves-effect waves-light active text-white " href="#terlaris" role="tab" data-toggle="tab"><h4 class="text-center mb-0">TERLARIS</h4></a>
                         </li>
                         <li class="nav-item col-4 pl-0 pr-0">
-                            <a class="nav-link" href="#carwash" role="tab" data-toggle="tab"><h4 class="text-center mb-0">CAR WASH</h4></a>
+                            <a class="nav-link waves-light waves-effect waves-light text-white" href="#carwash" role="tab" data-toggle="tab"><h4 class="text-center mb-0">CAR WASH</h4></a>
                         </li>
                         <li class="nav-item col-4 pl-0 pr-0">
-                            <a class="nav-link" href="#carcare" role="tab" data-toggle="tab"><h4 class="text-center mb-0">CAR CARE</h4></a>
+                            <a class="nav-link waves-light waves-effect waves-light text-white" href="#carcare" role="tab" data-toggle="tab"><h4 class="text-center mb-0">CAR CARE</h4></a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-4 p-0 border border-grey text-center">
                     <!--<button type="submit" class="btn btn-primary btn-custom-2">PESAN</button>-->
-                    <a href="{{ url('terimakasih') }}" class="btn btn-primary btn-custom-2">PESAN</a>
+                    <a href="{{ url('terimakasih') }}" class="btn btn-primary btn-custom-2 blue-gradient">PESAN</a>
                 </div>
             </div>
         </div>

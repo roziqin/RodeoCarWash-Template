@@ -3,22 +3,34 @@
     <head>
         @include('Partials.head')
     </head>
-    <body class="home background-blue-1">
-        <div class="container">
-            <div class="box p-5 shadow">
+    <body class="">
+        <!-- Main navigation -->
+        <header>
+          <!-- Full Page Intro -->
+          <div class="view jarallax custom fadeIn animated" style="background-image: url('images/bg-carwash.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-gradient-green d-flex justify-content-center align-items-center">
+              <!-- Content -->
+              <div class="container">
+                <!--Grid row-->
                 <div class="row">
-                    <div class="col-12 pt-3">
-                        <div class="d-flex flex-row justify-content-center align-items-center">
-                            <div ><img src="images/logo.png"></div>
-                        </div>
-                    </div>
-                    <div class="col-12 pt-5 text-center">
-                        <h1>TERIMA KASIH<br>SILAHKAN AMBIL STRUK<br>DAN TUNJUKKAN PADA KASIR SAAT PEMBAYARAN</h1>
-
-                    </div>
+                  <!--Grid column-->
+                  <div class="col-md-6 white-text text-center text-md-left mt-xl-5 mb-5 fadeInLeft">
+                    <h1 class="h1-responsive font-weight-bold mt-sm-5 fadeInLeft animated delay-03s">Terima Kasih</h1>
+                    <hr class="hr-light fadeInLeft animated delay-06s">
+                    <h5 class="mb-4 fadeInLeft animated delay-09s">Silahkan ambil struk<br>dan tunjukkan pada kasir saat pembayaran.</h5>
+                  </div>
+                  <!--Grid column-->
                 </div>
+                <!--Grid row-->
+              </div>
+              <!-- Content -->
             </div>
-        </div>
+            <!-- Mask & flexbox options-->
+          </div>
+          <!-- Full Page Intro -->
+        </header>
+        <!-- Main navigation -->
         @include('Partials.footer')
         <script type="text/javascript">
             
