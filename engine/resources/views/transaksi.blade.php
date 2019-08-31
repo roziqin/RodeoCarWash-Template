@@ -4,176 +4,210 @@
         @include('Partials.head')
     </head>
     <body class="transaksi">
+
         <div class="container-fluid">
-            <div class="row blue-gradient">
-                <div class="col-8 p-2 border-right border-white">
-                    <a href="{{ url('tipe') }}" class="float-left pl-3 pr-3"><img src="images/arrow-left.png" height="32"></a>
-                    <h3 class="text-center mb-0 text-white">RODEO CAR WASH</h3>
+            <div class="row blue-gradient position-relative mb-0">
+                <div class="p-2 position-absolute abs-custom">
+                    <a href="{{ url('tipe') }}" class="float-left pl-3 pr-3"><h2><i class="fa fa-arrow-left text-white"></i></h2></a>
                 </div>
-                <div class="col-4 p-2 border-left border-white">
-                    <h3 class="text-center mb-0  text-white">DAFTAR PESANAN</h3>
+                <div class="col-12 pt-2 pb-2">
+                    <h1 class="text-center text-white mb-0">RODEO CAR WASH</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-8 p-3 border border-grey col-custom-1">
-                    <!-- Tab panes -->
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane animated slow fadeIn active show" id="terlaris" style="">  
-                            <div class="row">
-                                <div class="col-3 mb-4 list-item">
-                                    <a href="{{ url('#') }}" class="shadow position-relative">
-                                        <div class="info-price">Rp. 100.000</div>
-                                        <div class="box-image">
-                                            <img src="images/service/CARWASH-ultra-healthy.png">
+                <div class="col-8 p-3 border border-grey col-custom-1 position-relative">
+                    <!--Carousel Wrapper-->
+                    <div id="multi-item-example" class="carousel slide carousel-multi-item mt-4 animated slow fadeIn" data-ride="carousel">
+
+                      <!--Controls-->
+                      <div class="controls-top custom">
+                        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+                            class="fas fa-chevron-right"></i></a>
+                      </div>
+                        <!--/.Controls-->
+
+                      <!--Slides-->
+                      <div class="carousel-inner" role="listbox">
+
+                        <!--First slide-->
+                        <div class="carousel-item pl-5 pr-5 active">
+                            <div class="col-md-3">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card mb-2">
+                                        <img src="images/service/CARWASH-reguler.png">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Carwash Reguler</h5>
+                                            <p class="card-text">Rp. 40.000</p>
                                         </div>
-                                        <div class="info-item">
-                                            <h4 class="text-center p-1 blue-text">Carwash Ultra Healthy</h4>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-3 mb-4 list-item">
-                                    <a href="{{ url('#') }}" class="shadow position-relative">
-                                        <div class="info-price">Rp. 70.000</div>
-                                        <div class="box-image">
-                                            <img src="images/service/CARWASH-healthy.png">
-                                        </div>
-                                        <div class="info-item">
-                                            <h4 class="text-center p-1 blue-text">Carwash Healthy</h4>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-3 mb-4 list-item">
-                                    <a href="{{ url('#') }}" class="shadow position-relative">
-                                        <div class="info-price">Rp. 50.000</div>
-                                        <div class="box-image">
-                                            <img src="images/service/CARWASH-deluxe.png">
-                                        </div>
-                                        <div class="info-item">
-                                            <h4 class="text-center p-1 blue-text">Carwash Deluxe</h4>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-3 mb-4 list-item">
-                                    <a href="{{ url('#') }}" class="shadow position-relative">
-                                        <div class="info-price">Rp. 200.000</div>
-                                        <div class="box-image">
-                                            <img src="images/service/nano-ceramic-svc.png">
-                                        </div>
-                                        <div class="info-item">
-                                            <h4 class="text-center p-1 blue-text">Nano Ceramic</h4>
-                                        </div>
-                                    </a>
-                                </div>
+                                    </div>
+                                </a>
                             </div>
-                        </div>
-                        <div role="tabpanel" class="tab-pane animated slow fadeIn" id="carwash">
-                            <div class="row">
-                                <div class="col-3 mb-4 list-item">
-                                    <a href="{{ url('#') }}" class="shadow position-relative">
-                                        <div class="info-price">Rp. 40.000</div>
-                                        <div class="box-image">
-                                            <img src="images/service/CARWASH-reguler.png">
+                            <div class="col-md-3">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card mb-2">
+                                        <img src="images/service/CARWASH-deluxe.png">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Carwash Deluxe</h5>
+                                            <p class="card-text">Rp. 50.000</p>
                                         </div>
-                                        <div class="info-item">
-                                            <h4 class="text-center p-1 blue-text">Carwash Reguler</h4>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-3 mb-4 list-item">
-                                    <a href="{{ url('#') }}" class="shadow position-relative">
-                                        <div class="info-price">Rp. 50.000</div>
-                                        <div class="box-image">
-                                            <img src="images/service/CARWASH-deluxe.png">
-                                        </div>
-                                        <div class="info-item">
-                                            <h4 class="text-center p-1 blue-text">Carwash Deluxe</h4>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-3 mb-4 list-item">
-                                    <a href="{{ url('#') }}" class="shadow position-relative">
-                                        <div class="info-price">Rp. 60.000</div>
-                                        <div class="box-image">
-                                            <img src="images/service/CARWASH-ultra.png">
-                                        </div>
-                                        <div class="info-item">
-                                            <h4 class="text-center p-1 blue-text">Carwash Ultra</h4>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-3 mb-4 list-item">
-                                    <a href="{{ url('#') }}" class="shadow position-relative">
-                                        <div class="info-price">Rp. 70.000</div>
-                                        <div class="box-image">
-                                            <img src="images/service/CARWASH-healthy.png">
-                                        </div>
-                                        <div class="info-item">
-                                            <h4 class="text-center p-1 blue-text">Carwash Healthy</h4>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-3 mb-4 list-item">
-                                    <a href="{{ url('#') }}" class="shadow position-relative">
-                                        <div class="info-price">Rp. 90.000</div>
-                                        <div class="box-image">
-                                            <img src="images/service/CARWASH-deluxe-healthy.png">
-                                        </div>
-                                        <div class="info-item">
-                                            <h4 class="text-center p-1 blue-text">Carwash Deluxe Healthy</h4>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-3 mb-4 list-item">
-                                    <a href="{{ url('#') }}" class="shadow position-relative">
-                                        <div class="info-price">Rp. 100.000</div>
-                                        <div class="box-image">
-                                            <img src="images/service/CARWASH-ultra-healthy.png">
-                                        </div>
-                                        <div class="info-item">
-                                            <h4 class="text-center p-1 blue-text">Carwash Ultra Healthy</h4>
-                                        </div>
-                                    </a>
-                                </div>
+                                    </div>
+                                </a>
                             </div>
-                        </div>
-                        <div role="tabpanel" class="tab-pane animated slow fadeIn" id="carcare">
-                            <div class="row">
-                                <div class="col-3 mb-4 list-item">
-                                    <a href="{{ url('#') }}" class="shadow position-relative">
-                                        <div class="info-price">Rp. 100.000</div>
-                                        <div class="box-image">
-                                            <img src="images/service/total-detailing-svc.png">
+                            <div class="col-md-3">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card mb-2">
+                                        <img src="images/service/CARWASH-ultra.png">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Carwash Ultra</h5>
+                                            <p class="card-text">Rp. 60.000</p>
                                         </div>
-                                        <div class="info-item">
-                                            <h4 class="text-center p-1 blue-text">Total Detailing</h4>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-3 mb-4 list-item">
-                                    <a href="{{ url('#') }}" class="shadow position-relative">
-                                        <div class="info-price">Rp. 150.000</div>
-                                        <div class="box-image">
-                                            <img src="images/service/nitro-seal-svc.png">
-                                        </div>
-                                        <div class="info-item">
-                                            <h4 class="text-center p-1 blue-text">Nitro Seal</h4>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-3 mb-4 list-item">
-                                    <a href="{{ url('#') }}" class="shadow position-relative">
-                                        <div class="info-price">Rp. 200.000</div>
-                                        <div class="box-image">
-                                            <img src="images/service/nano-ceramic-svc.png">
-                                        </div>
-                                        <div class="info-item">
-                                            <h4 class="text-center p-1 blue-text">Nano Ceramic</h4>
-                                        </div>
-                                    </a>
-                                </div>
+                                    </div>
+                                </a>
                             </div>
+                            <div class="col-md-3">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card mb-2">
+                                        <img src="images/service/CARWASH-healthy.png">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Carwash Healthy</h5>
+                                            <p class="card-text">Rp. 70.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
                         </div>
+                        <!--/.First slide-->
+
+                        <!--Second slide-->
+                        <div class="carousel-item pl-5 pr-5">
+                            <div class="col-md-3">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card mb-2">
+                                        <img src="images/service/CARWASH-deluxe-healthy.png">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Carwash Deluxe Healthy</h5>
+                                            <p class="card-text">Rp. 90.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card mb-2">
+                                        <img src="images/service/CARWASH-ultra-healthy.png">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Carwash Ultra Healthy</h5>
+                                            <p class="card-text">Rp. 100.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <!--/.Second slide-->
+                      </div>
+                      <!--/.Slides-->
+
                     </div>
+                    <!--/.Carousel Wrapper-->
+
+                    <!--Carousel Wrapper-->
+                    <div id="multi-item" class="carousel slide carousel-multi-item animated slow fadeIn" data-ride="carousel">
+
+                      <!--Controls-->
+                      <div class="controls-top custom">
+                        <a class="btn-floating" href="#multi-item" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                        <a class="btn-floating" href="#multi-item" data-slide="next"><i
+                            class="fas fa-chevron-right"></i></a>
+                      </div>
+                        <!--/.Controls-->
+
+                      <!--Slides-->
+                      <div class="carousel-inner" role="listbox">
+
+                        <!--First slide-->
+                        <div class="carousel-item pl-5 pr-5 active">
+                            <div class="col-md-3">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card mb-2">
+                                        <img src="images/service/total-detailing-svc.png">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Total Detailing</h5>
+                                            <p class="card-text">Rp. 100.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card mb-2">
+                                        <img src="images/service/nitro-seal-svc.png">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nitro Seal</h5>
+                                            <p class="card-text">Rp. 150.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card mb-2">
+                                        <img src="images/service/nano-ceramic-svc.png">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nano Ceramic</h5>
+                                            <p class="card-text">Rp. 200.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card mb-2">
+                                        <img src="images/service/total-detailing-svc.png">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Total Detailing</h5>
+                                            <p class="card-text">Rp. 100.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!--/.First slide-->
+
+                        <!--Second slide-->
+                        <div class="carousel-item pl-5 pr-5">
+                            <div class="col-md-3">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card mb-2">
+                                        <img src="images/service/nitro-seal-svc.png">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nitro Seal</h5>
+                                            <p class="card-text">Rp. 150.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card mb-2">
+                                        <img src="images/service/nano-ceramic-svc.png">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nano Ceramic</h5>
+                                            <p class="card-text">Rp. 200.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!--/.Second slide-->
+                      </div>
+                      <!--/.Slides-->
+
+                    </div>
+                    <!--/.Carousel Wrapper-->
+                    
                 </div>
 
                 <div class="col-4 p-0 border border-grey position-relative">
@@ -211,29 +245,18 @@
                                 </tr>
                             </table>
                         </div>
+                        <div class="col-12 pl-0 pr-0 pb-2 pt-3 text-center">
+                            <a href="{{ url('terimakasih') }}" class="btn btn-primary btn-custom-2 blue-gradient">PESAN</a>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="row fixed-bottom ml-0 mr-0 background-white row-bottom-custom">
-                <div class="col-8 pl-0 pr-0 border border-grey main-tabs-docs">
-                    <ul class="nav nav-mtd tabs-info z-depth-1 row ml-0 mr-0" role="tablist">
-                        <li class="nav-item col-4 pl-0 pr-0">
-                            <a class="nav-link waves-light waves-effect waves-light active text-white " href="#terlaris" role="tab" data-toggle="tab"><h4 class="text-center mb-0">TERLARIS</h4></a>
-                        </li>
-                        <li class="nav-item col-4 pl-0 pr-0">
-                            <a class="nav-link waves-light waves-effect waves-light text-white" href="#carwash" role="tab" data-toggle="tab"><h4 class="text-center mb-0">CAR WASH</h4></a>
-                        </li>
-                        <li class="nav-item col-4 pl-0 pr-0">
-                            <a class="nav-link waves-light waves-effect waves-light text-white" href="#carcare" role="tab" data-toggle="tab"><h4 class="text-center mb-0">CAR CARE</h4></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-4 p-0 border border-grey text-center">
-                    <!--<button type="submit" class="btn btn-primary btn-custom-2">PESAN</button>-->
-                    <a href="{{ url('terimakasih') }}" class="btn btn-primary btn-custom-2 blue-gradient">PESAN</a>
                 </div>
             </div>
         </div>
         @include('Partials.footer')
+        <script type="text/javascript">
+            $('.carousel').carousel({
+                interval: false
+            })
+        </script>
     </body>
 </html>

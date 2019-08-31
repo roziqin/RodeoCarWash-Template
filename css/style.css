@@ -439,12 +439,12 @@ box-shadow: none;
 	font-size: 1.5rem;
 }
 .col-custom-1 {
-    height: calc(100vh - 117px);
+    height: calc(100vh - 64px);
     overflow: auto;
 }
 
 .col-custom-2 {
-    height: calc(100vh - 183px);
+    height: calc(100vh - 225px);
     overflow: auto;
 }
 
@@ -616,4 +616,61 @@ table a.delete {
 
 hr.custom-1 {
 	border-top: 1px dashed #000;
+}
+
+.carousel-multi-item .controls-top.custom {
+	height: 100%;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.carousel-multi-item .controls-top .btn-floating {
+	position: absolute;
+    background: transparent;
+    box-shadow: none;
+    height: auto;
+    top: 10vh;
+}
+
+.carousel-multi-item .controls-top .btn-floating:first-child {
+	left: -20px;
+}
+
+.carousel-multi-item .controls-top .btn-floating:last-child {
+	right: -20px;
+}
+
+.carousel-multi-item .controls-top .btn-floating i {
+	color: #000;
+	opacity: .6;
+	font-size: 3rem;
+}
+
+.carousel-item .card img {
+	width: 100%;
+}
+
+.carousel-item a,
+.col-md-3 a {
+	color: #212529;
+}
+
+.carousel-item .card,
+.card.custom {
+	box-shadow: none;
+}
+
+.card .card-body .card-text {
+	font-size: 1rem;
+}
+
+.carousel-multi-item {
+	margin-bottom: 2.5rem;
+}
+
+.card.custom img {
+	width: fit-content;
+	max-width: 160px;
+	margin: 0px auto;
 }
