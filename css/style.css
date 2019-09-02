@@ -585,12 +585,16 @@ a.link-custom-1 {
 	margin: 6px auto;
 }
 
+table.table td, table.table th {
+	padding: 1rem .5rem;
+}
+
 table.table-custom-1.list-item-jasa td:first-child {
-	width: 80px;
+	width: 59px;
 }
 
 table.table-custom-1 td:nth-child(3) {
-	width: 160px;
+	width: 125px;
 	text-align: right;
 }
 
@@ -630,7 +634,7 @@ hr.custom-1 {
     background: transparent;
     box-shadow: none;
     height: auto;
-    top: 10vh;
+    top: calc(50% - 24px);
 }
 
 .carousel-multi-item .controls-top .btn-floating:first-child {
@@ -673,4 +677,12 @@ hr.custom-1 {
 	width: fit-content;
 	max-width: 160px;
 	margin: 0px auto;
+}
+
+.card-body {
+	padding: 1rem;
+}
+
+.col-md-21 .card-body {
+	padding: .5rem;
 }

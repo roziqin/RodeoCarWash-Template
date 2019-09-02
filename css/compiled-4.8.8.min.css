@@ -665,6 +665,7 @@ pre code {
 .col-md-11,
 .col-md-12,
 .col-md-2,
+.col-md-21,
 .col-md-3,
 .col-md-4,
 .col-md-5,
@@ -705,6 +706,11 @@ pre code {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px
+}
+
+.col-md-21 {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .col {
@@ -1108,6 +1114,11 @@ pre code {
         -ms-flex: 0 0 16.666667%;
         flex: 0 0 16.666667%;
         max-width: 16.666667%
+    }
+    .col-md-2 {
+        -ms-flex: 0 0 12.5%;
+        flex: 0 0 12.5%;
+        max-width: 12.5%;
     }
     .col-md-3 {
         -ms-flex: 0 0 25%;
@@ -25884,6 +25895,11 @@ button.mdb-autocomplete-clear svg {
 }
 
 @media (min-width:768px) {
+    .carousel-multi-item .col-md-21 {
+        float: left;
+        width: 12.5%;
+        max-width: 100%
+    }
     .carousel-multi-item .col-md-3 {
         float: left;
         width: 25%;

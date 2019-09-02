@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-8 p-3 border border-grey col-custom-1 position-relative">
+                <div class="col-9 p-3 border border-grey col-custom-1 position-relative">
                     <!--Carousel Wrapper-->
                     <div id="multi-item-example" class="carousel slide carousel-multi-item mt-4 animated slow fadeIn" data-ride="carousel">
 
@@ -31,10 +31,10 @@
                       <div class="carousel-inner" role="listbox">
 
                         <!--First slide-->
-                        <div class="carousel-item pl-5 pr-5 active">
+                        <div class="carousel-item pl-4 pr-4 active">
                             <div class="col-md-3">
                                 <a href="{{ url('#') }}" class=" position-relative">
-                                    <div class="card mb-2">
+                                    <div class="card">
                                         <img src="images/service/CARWASH-reguler.png">
                                         <div class="card-body">
                                             <h5 class="card-title">Carwash Reguler</h5>
@@ -45,7 +45,7 @@
                             </div>
                             <div class="col-md-3">
                                 <a href="{{ url('#') }}" class=" position-relative">
-                                    <div class="card mb-2">
+                                    <div class="card">
                                         <img src="images/service/CARWASH-deluxe.png">
                                         <div class="card-body">
                                             <h5 class="card-title">Carwash Deluxe</h5>
@@ -56,7 +56,7 @@
                             </div>
                             <div class="col-md-3">
                                 <a href="{{ url('#') }}" class=" position-relative">
-                                    <div class="card mb-2">
+                                    <div class="card">
                                         <img src="images/service/CARWASH-ultra.png">
                                         <div class="card-body">
                                             <h5 class="card-title">Carwash Ultra</h5>
@@ -67,7 +67,7 @@
                             </div>
                             <div class="col-md-3">
                                 <a href="{{ url('#') }}" class=" position-relative">
-                                    <div class="card mb-2">
+                                    <div class="card">
                                         <img src="images/service/CARWASH-healthy.png">
                                         <div class="card-body">
                                             <h5 class="card-title">Carwash Healthy</h5>
@@ -84,7 +84,7 @@
                         <div class="carousel-item pl-5 pr-5">
                             <div class="col-md-3">
                                 <a href="{{ url('#') }}" class=" position-relative">
-                                    <div class="card mb-2">
+                                    <div class="card">
                                         <img src="images/service/CARWASH-deluxe-healthy.png">
                                         <div class="card-body">
                                             <h5 class="card-title">Carwash Deluxe Healthy</h5>
@@ -95,11 +95,33 @@
                             </div>
                             <div class="col-md-3">
                                 <a href="{{ url('#') }}" class=" position-relative">
-                                    <div class="card mb-2">
+                                    <div class="card">
                                         <img src="images/service/CARWASH-ultra-healthy.png">
                                         <div class="card-body">
                                             <h5 class="card-title">Carwash Ultra Healthy</h5>
                                             <p class="card-text">Rp. 100.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card">
+                                        <img src="images/service/CARWASH-reguler.png">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Carwash Reguler</h5>
+                                            <p class="card-text">Rp. 40.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card">
+                                        <img src="images/service/CARWASH-deluxe.png">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Carwash Deluxe</h5>
+                                            <p class="card-text">Rp. 50.000</p>
                                         </div>
                                     </div>
                                 </a>
@@ -128,47 +150,91 @@
                       <div class="carousel-inner" role="listbox">
 
                         <!--First slide-->
-                        <div class="carousel-item pl-5 pr-5 active">
-                            <div class="col-md-3">
+                        <div class="carousel-item pl-4 pr-4 active">
+                            <div class="col-md-21">
                                 <a href="{{ url('#') }}" class=" position-relative">
-                                    <div class="card mb-2">
+                                    <div class="card">
                                         <img src="images/service/total-detailing-svc.png">
                                         <div class="card-body">
-                                            <h5 class="card-title">Total Detailing</h5>
+                                            <h6 class="card-title">Total Detailing</h6>
                                             <p class="card-text">Rp. 100.000</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-21">
                                 <a href="{{ url('#') }}" class=" position-relative">
-                                    <div class="card mb-2">
+                                    <div class="card">
                                         <img src="images/service/nitro-seal-svc.png">
                                         <div class="card-body">
-                                            <h5 class="card-title">Nitro Seal</h5>
+                                            <h6 class="card-title">Nitro Seal</h6>
                                             <p class="card-text">Rp. 150.000</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-21">
                                 <a href="{{ url('#') }}" class=" position-relative">
-                                    <div class="card mb-2">
+                                    <div class="card">
                                         <img src="images/service/nano-ceramic-svc.png">
                                         <div class="card-body">
-                                            <h5 class="card-title">Nano Ceramic</h5>
+                                            <h6 class="card-title">Nano Ceramic</h6>
                                             <p class="card-text">Rp. 200.000</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-21">
                                 <a href="{{ url('#') }}" class=" position-relative">
-                                    <div class="card mb-2">
+                                    <div class="card">
                                         <img src="images/service/total-detailing-svc.png">
                                         <div class="card-body">
-                                            <h5 class="card-title">Total Detailing</h5>
+                                            <h6 class="card-title">Total Detailing</h6>
                                             <p class="card-text">Rp. 100.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-21">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card">
+                                        <img src="images/service/nitro-seal-svc.png">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Nitro Seal</h6>
+                                            <p class="card-text">Rp. 150.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-21">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card">
+                                        <img src="images/service/nano-ceramic-svc.png">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Nano Ceramic</h6>
+                                            <p class="card-text">Rp. 200.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-21">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card">
+                                        <img src="images/service/nitro-seal-svc.png">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Nitro Seal</h6>
+                                            <p class="card-text">Rp. 150.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-21">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card">
+                                        <img src="images/service/nano-ceramic-svc.png">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Nano Ceramic</h6>
+                                            <p class="card-text">Rp. 200.000</p>
                                         </div>
                                     </div>
                                 </a>
@@ -177,24 +243,90 @@
                         <!--/.First slide-->
 
                         <!--Second slide-->
-                        <div class="carousel-item pl-5 pr-5">
-                            <div class="col-md-3">
+                        <div class="carousel-item pl-4 pr-4">
+                            <div class="col-md-21">
                                 <a href="{{ url('#') }}" class=" position-relative">
-                                    <div class="card mb-2">
+                                    <div class="card">
+                                        <img src="images/service/total-detailing-svc.png">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Total Detailing</h6>
+                                            <p class="card-text">Rp. 100.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-21">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card">
                                         <img src="images/service/nitro-seal-svc.png">
                                         <div class="card-body">
-                                            <h5 class="card-title">Nitro Seal</h5>
+                                            <h6 class="card-title">Nitro Seal</h6>
                                             <p class="card-text">Rp. 150.000</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-21">
                                 <a href="{{ url('#') }}" class=" position-relative">
-                                    <div class="card mb-2">
+                                    <div class="card">
                                         <img src="images/service/nano-ceramic-svc.png">
                                         <div class="card-body">
-                                            <h5 class="card-title">Nano Ceramic</h5>
+                                            <h6 class="card-title">Nano Ceramic</h6>
+                                            <p class="card-text">Rp. 200.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-21">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card">
+                                        <img src="images/service/total-detailing-svc.png">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Total Detailing</h6>
+                                            <p class="card-text">Rp. 100.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-21">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card">
+                                        <img src="images/service/nitro-seal-svc.png">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Nitro Seal</h6>
+                                            <p class="card-text">Rp. 150.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-21">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card">
+                                        <img src="images/service/nano-ceramic-svc.png">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Nano Ceramic</h6>
+                                            <p class="card-text">Rp. 200.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-21">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card">
+                                        <img src="images/service/nitro-seal-svc.png">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Nitro Seal</h6>
+                                            <p class="card-text">Rp. 150.000</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-21">
+                                <a href="{{ url('#') }}" class=" position-relative">
+                                    <div class="card">
+                                        <img src="images/service/nano-ceramic-svc.png">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Nano Ceramic</h6>
                                             <p class="card-text">Rp. 200.000</p>
                                         </div>
                                     </div>
@@ -210,7 +342,7 @@
                     
                 </div>
 
-                <div class="col-4 p-0 border border-grey position-relative">
+                <div class="col-3 p-0 border border-grey position-relative">
                     <div class="row m-0  col-custom-2">
                         <div class="col-12 p-3">
                             <div class="form-group text-center">
