@@ -8,6 +8,15 @@
         <!-- Main navigation -->
         <header>
           <!-- Full Page Intro -->
+          <div class="container-fluid position-absolute zi-1">
+                <div class="row bg-black-trans pt-1 pb-1">
+                    <div class="col-md-12 position-relative">
+                        <div class="runningtext full">
+                            <h5 class="text-white">Promosikan usaha/produk anda di sini dengan menggunakan iklan running text. Promosikan usaha/produk anda di sini dengan menggunakan iklan running text. </h5>
+                        </div>
+                    </div>
+                </div>
+          </div>
           <div class="view jarallax custom fadeIn animated" style="background-image: url('images/bg-carwash.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
             <!-- Mask & flexbox options-->
             <div class="mask rgba-gradient-green d-flex justify-content-center align-items-center">
